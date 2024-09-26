@@ -3,7 +3,9 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
 [![Reflex](https://img.shields.io/badge/Reflex-0.6.0+-5646ED?style=for-the-badge&logo=reflex&logoColor=white&labelColor=101010)](https://fastapi.tiangolo.com)
 
-## Proyecto desarrollado con [Python](https://www.python.org/) y [Reflex](https://reflex.dev/) que representa un sitio web personal estilo "[link in bio](my url de la web)"
+## Descripción del Proyecto
+Este proyecto es una página web personal desarrollada con [Python](https://www.python.org/) y [Reflex](https://reflex.dev/), diseñada para mostrar información sobre mi trayectoria profesional, mis proyectos y mi curriculum vitae (CV). El objetivo de la web es que sirva como un resumen de mi perfil como Software Developer con 2 años de experiencia y un espacio donde compartir mis futuros proyectos y experimentos tecnológicos.
+Además, estoy por iniciar un posgrado en Ingeniería Cuántica, lo cual representa una nueva dirección en mi carrera y puede que en un futro sea un tema que también explore en esta página.
 
 ## Requisitos
 
