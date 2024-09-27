@@ -2,7 +2,8 @@ import reflex as rx
 
 def navbar_link(text: str, url: str) -> rx.Component:
     return rx.link(
-        rx.text(text, size="4", weight="medium"), href=url
+        rx.text(text, size="4", weight="medium"),
+        href=url
     )
 
 def navbar() -> rx.Component:
@@ -20,27 +21,32 @@ def navbar() -> rx.Component:
                 rx.hstack(
                     navbar_link("Home", "/"),
                     navbar_link("About", "/about"),
-                    navbar_link("CV", "/"),
-                    navbar_link("Projects", "/"),
+                    navbar_link("CV", "/cv"),
+                    navbar_link("Projects", "/projects"),
                     spacing="5",
                 ),
                 rx.avatar(
-                    src="rose_icon.svg",
+                    src="/rose_icon.svg",
                     justify="end",
                 ),
                 justify="between",
-                align_items="center",
+                align_items="center"
             ),
         ),
         rx.mobile_and_tablet(
             rx.hstack(
-                rx.heading(
-                    "jorgec4444", size="5", weight="bold"
+                rx.link(
+                    rx.heading(
+                        "jorgec4444", size="6", weight="bold"
+                    ),
+                    href="/",
+                    text_decoration="none",
+                    _hover="{}"
                 ),
                 rx.menu.root(
                     rx.menu.trigger(
                         rx.icon_button(
-                            rx.image(src="rose_icon.svg"),
+                            rx.image(src="/rose_icon.svg"),
                             size="2",
                             radius="full",
                         )
@@ -54,12 +60,13 @@ def navbar() -> rx.Component:
                     justify="end",
                 ),
                 justify="between",
-                align_items="center",
+                align_items="center"
             ),
         ),
-        bg=rx.color("accent", 3),
+        bg="#171F26",
         padding="1em",
-        position="fixed",
+        margin_bottom="2em",
+        position="sticky",
         z_index="999",
         width="100%",
     )
