@@ -1,40 +1,41 @@
-# Portfolio de jorgec4444
+# jorgec4444 Porfolio
 
 [![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
 [![Reflex](https://img.shields.io/badge/Reflex-0.6.0+-5646ED?style=for-the-badge&logo=reflex&logoColor=white&labelColor=101010)](https://fastapi.tiangolo.com)
 
-## Descripción del Proyecto
-Este proyecto es una página web personal desarrollada con [Python](https://www.python.org/) y [Reflex](https://reflex.dev/), diseñada para mostrar información sobre mi trayectoria profesional, mis proyectos y mi curriculum vitae (CV). El objetivo de la web es que sirva como un resumen de mi perfil como Software Developer con 2 años de experiencia y un espacio donde compartir mis futuros proyectos y experimentos tecnológicos.
-Además, estoy por iniciar un posgrado en Ingeniería Cuántica, lo cual representa una nueva dirección en mi carrera y puede que en un futro sea un tema que también explore en esta página.
+## Project description
+This project is a personal webpage developed with [Python](https://www.python.org/) and [Reflex](https://reflex.dev/), designed to showcase information about my professional journey, my projects, and my curriculum vitae (CV).
+The goal of the website is to serve as a summary of my profile as a Software Developer with 2 years of experience and a space to share my future projects and technological experiments.
+Additionally, I am about to start a postgraduate program in Quantum Engineering, which represents a new direction in my career, and it might be a topic I explore on this page in the future.
 
-## Requisitos
+## Requirements
 
-#### Instala y crea un entorno virtual [venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) en la raíz del proyecto
+#### Install and create a virtual environment  [venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) in the root of the project
 Mac/Linux: `python3 -m pip install virtualenv`
 
 Windows: `py -m pip install --user virtualenv`
 
 `python3 -m venv .venv`
 
-#### Activa el entorno virtual 
+#### Activate the virtual environment 
 Mac/Linux: `source .venv/bin/activate`
 
 Windows: `.\.venv\Scripts\activate`
 
-Para desactivar el entorno virtual: `deactivate`
+To deactivate the virtual environment: `deactivate`
 
-## Dependencias
-*(Con el entorno virtual activo)*
+## Dependencies
+*(With the virtual environment active)*
 
 `pip install reflex`
 
-También las tienes en `requirements.txt`
+You can also find them in `requirements.txt`
 
 `python -m pip install -r requirements.txt`
 
-## Ejecución
+## Execution
 `reflex run`
 
-`reflex run --loglevel debug` *(modo debug)*
+`reflex run --loglevel debug` *(debug mode)*
 
-Acceder a [http://localhost:3000](http://localhost:3000) (frontend) y a [http://localhost:8000](http://localhost:8000) (backend)
+Access [http://localhost:3000](http://localhost:3000) (frontend) and [http://localhost:8000](http://localhost:8000) (backend)
