@@ -1,6 +1,7 @@
 import reflex as rx
 
 from about_jorgec.components.navbar import navbar
+from about_jorgec.components.footer import footer
 from about_jorgec.views.header.header import header
 
 class State(rx.State):
@@ -12,6 +13,7 @@ def base_page(content: rx.Component) -> rx.Component:
     return rx.box(
         navbar(),
         content,
+        footer(),
         bg="#0C151D",
         color="white",
         min_height="100vh"

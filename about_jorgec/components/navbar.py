@@ -32,6 +32,7 @@ def navbar() -> rx.Component:
                 justify="between",
                 align_items="center"
             ),
+            width="100%",
         ),
         rx.mobile_and_tablet(
             rx.hstack(
@@ -62,11 +63,12 @@ def navbar() -> rx.Component:
                 justify="between",
                 align_items="center"
             ),
+            width="100%"
         ),
         bg="#171F26",
         padding="1em",
         margin_bottom="2em",
         position="sticky",
         z_index="999",
-        width="100%",
+        width="100%"
     )

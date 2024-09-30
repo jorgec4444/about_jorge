@@ -12,7 +12,7 @@ def header() -> rx.Component:
                 fallback="JV",
                 size="8",
                 radius="full",
-                border=f"2px solid"
+                border="2px solid"
             ),
             rx.vstack(
                 rx.heading(
@@ -31,12 +31,18 @@ def header() -> rx.Component:
             justify="between"
         ),
         rx.vstack(
-            rx.text(
-                """
-                I´m a passionate software engineer from Barcelona that loves programming and learning new stuff everyday.
-                Here you can find out more about me, welcome!
-                """,
-                text_align="start",
+            rx.center(
+                rx.text(
+                    """
+                    I´m a software engineer from Barcelona that loves programming and learning new stuff everyday.
+                    Here you can find out more about me, welcome!
+                    """,
+                    text_align="start"
+                ),
+                border="2px solid",
+                padding="1em",
+                border_radius="10px",
+                align="center",
                 width="50%"
             ),
             align="center"
