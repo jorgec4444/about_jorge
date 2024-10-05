@@ -8,9 +8,9 @@ from about_jorgec.pages.cv_page import cv_page
 from about_jorgec.pages.projects_page import projects_page
 from about_jorgec.styles.styles import BASE_STYLE
 
-class State(rx.State):
-    """The app state."""
-    ...
+#class State(rx.State):
+#    """The app state."""
+#    ...
 
 
 def base_page(content: rx.Component) -> rx.Component:
