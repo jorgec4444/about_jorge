@@ -33,8 +33,8 @@ def base_page(content: rx.Component) -> rx.Component:
     title="Jorgec4444 | Software developer",
     description=
     """
-    Hola, mi nombre es Jorge Vinagre. Soy ingeniero de software y esta es una app web para que me conozcáis 
-    mejor echa con puro python
+    Hello, my name is Jorge Vinagre. I'm a software engineer and this is a web app for you to know about me 
+    best done with pure python
     """,
     image="/about_jorgec/assets/rose_icon.svg"
 )

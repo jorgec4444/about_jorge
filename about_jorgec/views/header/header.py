@@ -47,7 +47,7 @@ def header() -> rx.Component:
                     font_weight="bold",
                     color=Color.MY_BLUE
                 ),
-                " años de experiencia",
+                " years of experience",
                 font_size=Size.DEFAULT.value,
                 color=TextColor.BODY.value
             )
