@@ -1,21 +1,22 @@
 import reflex as rx
 
+from about_jorgec.styles.colors import TextColor
+from about_jorgec.styles.fonts import FontSize
+from about_jorgec.styles.styles import Size
+
 def footer() -> rx.Component:
-    return rx.el.footer(
-        rx.vstack(
+    return rx.vstack(
             rx.image(
                 src="/safe_icon.png",
-                height="8em",
-                width="7em",
+                height="7em",
+                width="6em",
                 alt="Safe icon certificate"
             ),
             rx.text(
-                "Jorge Vinagre is a Certified SAFe® 6 Practitioner."
+                "Jorge Vinagre is a Certified SAFe® 6 Practitioner.",
+                font_size=FontSize.SMALL.value
             ),
-            align="center",
-            padding="2.5em",
-            position="absolute",
-            bottom="0",
-            width= "100vw"
-        )
+        padding=Size.BIG.value,
+        align="center",
+        bottom="0"
     )

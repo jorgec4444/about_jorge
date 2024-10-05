@@ -1,5 +1,6 @@
 import reflex as rx
 
+from about_jorgec.styles.styles import Size
 def navbar_link(text: str, url: str) -> rx.Component:
     return rx.link(
         rx.text(text, size="4", weight="medium"),
@@ -14,9 +15,7 @@ def navbar() -> rx.Component:
                     rx.heading(
                         "jorgec4444", size="6", weight="bold"
                     ),
-                    href="/",
-                    text_decoration="none",
-                    _hover="{}"
+                    href="/"
                 ),
                 rx.hstack(
                     navbar_link("Home", "/"),
@@ -47,7 +46,8 @@ def navbar() -> rx.Component:
                 rx.menu.root(
                     rx.menu.trigger(
                         rx.icon_button(
-                            rx.image(src="/rose_icon.svg"),
+                            rx.image(
+                                src="/rose_icon.svg"),
                             size="2",
                             radius="full",
                         )
@@ -67,7 +67,7 @@ def navbar() -> rx.Component:
         ),
         bg="#171F26",
         padding="1em",
-        margin_bottom="2em",
+        margin_bottom=Size.BIG.value,
         position="sticky",
         z_index="999",
         width="100%"
