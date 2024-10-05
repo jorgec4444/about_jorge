@@ -1,6 +1,6 @@
 import reflex as rx
 
-from about_jorgec.styles.colors import Color, TextColor
+from about_jorgec.styles.colors import Color
 from about_jorgec.styles.fonts import Font, FontWeight, FontSize
 from enum import Enum
 
@@ -33,7 +33,7 @@ BASE_STYLE = {
         "--cursor-button": "pointer",
     },
     rx.link: {
-        "color": Color.BORDER,
+        "color": Color.MY_BLUE,
         "text_decoration": "none",
         "_hover": {}
     },

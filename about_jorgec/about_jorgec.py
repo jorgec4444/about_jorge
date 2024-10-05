@@ -28,40 +28,41 @@ def base_page(content: rx.Component) -> rx.Component:
         justify_content="space-between"
     )
 
-@rx.page(route="/", title="jorgecDev")
+@rx.page(
+    route="/",
+    title="Jorgec4444 | Software developer",
+    description=
+    """
+    Hola, mi nombre es Jorge Vinagre. Soy ingeniero de software y esta es una app web para que me conozcáis 
+    mejor echa con puro python
+    """,
+    image="/about_jorgec/assets/rose_icon.svg"
+)
 def index() -> rx.Component:
     return base_page(
         header()
     )
 
-@rx.page(route="/about", title="Algo sobre mí")
+@rx.page(route="/about", title="About Jorge Vinagre")
 def about() -> rx.Component:
     return base_page(
         about_page()
     )
 
-@rx.page(route="/cv", title="Mi CV")
+@rx.page(route="/cv", title="Jorge Vinagre CV")
 def cv() -> rx.Component:
     return base_page(
         cv_page()
     )
 
-@rx.page(route="/projects", title="Proyectos")
+@rx.page(route="/projects", title="Jorge Vinagre projects")
 def projects() -> rx.Component:
     return base_page(
         projects_page()
     )
 
 app = rx.App(style=BASE_STYLE)
-app.add_page(index,
-             title="Jorgec4444 | Software developer",
-             description=
-             """
-             Hola, mi nombre es Jorge Vinagre. Soy ingeniero de software y esta es una app web para que me conozcáis 
-             mejor y pueda practicar el development con python
-             """,
-             image="/rose_icon.svg")
-
+app.add_page(index)
 app.add_page(about)
 app.add_page(cv)
 app.add_page(projects)

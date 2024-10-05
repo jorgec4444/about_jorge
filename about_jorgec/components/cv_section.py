@@ -30,6 +30,6 @@ def cv_section(heading: str, text: str, href:str) -> rx.Component:
         padding=Size.LARGE.value,
         border="2.7px solid",
         border_radius="15px",
-        border_color=Color.BORDER,
+        border_color=Color.MY_BLUE,
         margin_bottom=Size.BIG.value
     )
