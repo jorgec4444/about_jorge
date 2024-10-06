@@ -1,6 +1,5 @@
 import reflex as rx
 
-from about_jorgec.styles.colors import TextColor
 from about_jorgec.styles.fonts import FontSize
 from about_jorgec.styles.styles import Size
 
@@ -13,7 +12,15 @@ def footer() -> rx.Component:
                 alt="Safe icon certificate"
             ),
             rx.text(
-                "Jorge Vinagre is a Certified SAFe® 6 Practitioner.",
+                rx.fragment(
+                    "Jorge Vinagre is a Certified",
+                    rx.link(
+                        " SAFe ",
+                        href="https://scaledagileframework.com/",
+                        is_external=True
+                    ),
+                    "® 6 Practitioner.",
+                ),
                 font_size=FontSize.SMALL.value
             ),
         padding=Size.BIG.value,

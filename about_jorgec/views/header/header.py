@@ -33,6 +33,7 @@ def header() -> rx.Component:
                     link_icon("/github.svg", const.GITHUB_URL, "Github"),
                     link_icon("/linkedin.svg", const.LINKEDIN_URL, "Linkedin"),
                     link_icon("/email.svg", "mailto:vinagre444@gmail.com", "Email"),
+                    link_icon("/instagram.svg", "https://www.instagram.com/jorgitocvt4/", "Instagram"),
                     padding_top=Size.SMALL.value
                 ),
                 padding_left=Size.SMALL.value,

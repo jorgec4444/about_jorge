@@ -39,7 +39,7 @@ def cv_page():
                     cv_section(
                         "Ferrimax",
                         read_file("about_jorgec/data/ferrimax_description.txt"),
-                        href=const.FERRIMAX_URL
+                        href=const.FERRIMAX_URL,
                     ),
                     cv_section(
                         "Immfly",
@@ -52,7 +52,7 @@ def cv_page():
                         href=const.MERKLE_URL
                     ),
                     cv_section(
-                        "Carver",
+                        "Carver Advanced Systems",
                         "Coming soon...",
                         href=const.CARVER_URL
                     ),
@@ -78,7 +78,7 @@ def cv_page():
                                 "role in each of them. However you can always ",
                                 rx.link(
                                     "download my CV in .pdf format ",
-                                    href="https://drive.google.com/file/d/1RoY-7AArT1ms_EStbHklRMeBc12jtvj0/view?usp=sharing",
+                                    href=const.DRIVE_CV_URL,
                                     is_external=True,
                                 ),
                                 "and have a look."
@@ -103,7 +103,7 @@ def cv_page():
                         href="https://www.merkle.com/es"
                     ),
                     cv_section(
-                        "Carver",
+                        "Carver Advanced Systems",
                         "Coming soon...",
                         href=const.CARVER_URL
                     ),

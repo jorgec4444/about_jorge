@@ -25,7 +25,8 @@ def about_page():
                                 """,
                                 rx.link(
                                     "my bachelor thesis project about Natural Language Processing (NLP). ",
-                                    href=const.BACHELOR_THESIS_URL
+                                    href=const.BACHELOR_THESIS_URL,
+                                    is_external=True
                                 ),
                                 "During this period I worked at ",
                                 rx.link(
@@ -62,7 +63,9 @@ def about_page():
                                     "On November 2024 I will start a postgraduate course in ",
                                     rx.link(
                                         "Quantum Engineering ",
-                                        href=const.QUANTUM_POSTGRADUATE_UPC_LINK),
+                                        href=const.QUANTUM_POSTGRADUATE_UPC_LINK,
+                                        is_external=True
+                                    ),
                                     "at Universitat Politècnica de Catalunya (UPC) to learn about its applications and to be "
                                     "able to apply this knowledge in my development.",
                                     padding_top="2em"
@@ -109,7 +112,8 @@ def about_page():
                                 """,
                                 rx.link(
                                     "my bachelor thesis project about Natural Language Processing (NLP). ",
-                                    href=const.BACHELOR_THESIS_URL
+                                    href=const.BACHELOR_THESIS_URL,
+                                    is_external=True
                                 ),
                                 "During this period I worked at ",
                                 rx.link(
@@ -146,7 +150,9 @@ def about_page():
                                     "On November 2024 I will start a postgraduate course in ",
                                     rx.link(
                                         "Quantum Engineering ",
-                                        href=const.QUANTUM_POSTGRADUATE_UPC_LINK),
+                                        href=const.QUANTUM_POSTGRADUATE_UPC_LINK,
+                                        is_external=True
+                                    ),
                                     "at Universitat Politècnica de Catalunya (UPC) to learn about its applications and to be "
                                     "able to apply this knowledge in my development.",
                                     padding_top="2em"
