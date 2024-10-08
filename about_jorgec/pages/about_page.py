@@ -63,7 +63,7 @@ def about_page():
                                     "On November 2024 I will start a postgraduate course in ",
                                     rx.link(
                                         "Quantum Engineering ",
-                                        href=const.QUANTUM_POSTGRADUATE_UPC_LINK,
+                                        href=const.QUANTUM_POSTGRADUATE_UPC_URL,
                                         is_external=True
                                     ),
                                     "at Universitat Politècnica de Catalunya (UPC) to learn about its applications and to be "
@@ -150,7 +150,7 @@ def about_page():
                                     "On November 2024 I will start a postgraduate course in ",
                                     rx.link(
                                         "Quantum Engineering ",
-                                        href=const.QUANTUM_POSTGRADUATE_UPC_LINK,
+                                        href=const.QUANTUM_POSTGRADUATE_UPC_URL,
                                         is_external=True
                                     ),
                                     "at Universitat Politècnica de Catalunya (UPC) to learn about its applications and to be "

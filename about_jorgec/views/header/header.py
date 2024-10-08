@@ -21,7 +21,7 @@ def header() -> rx.Component:
                 size="8",
                 radius="full",
                 border="2.7px solid",
-                border_color=Color.MY_BLUE.value
+                border_color=Color.MY_BLUE.value,
             ),
             rx.vstack(
                 rx.heading(

@@ -1,5 +1,6 @@
 import reflex as rx
 
+from about_jorgec.styles.colors import Color
 from about_jorgec.styles.styles import Size
 def navbar_link(text: str, url: str) -> rx.Component:
     return rx.link(
@@ -50,6 +51,7 @@ def navbar() -> rx.Component:
                                 src="/rose_icon.svg"),
                             size="2",
                             radius="full",
+                            color_scheme="indigo"
                         )
                     ),
                     rx.menu.content(

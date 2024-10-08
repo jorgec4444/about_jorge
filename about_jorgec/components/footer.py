@@ -1,6 +1,6 @@
 import reflex as rx
 
-from about_jorgec.styles.fonts import FontSize
+from about_jorgec.styles.fonts import FontSize, FontWeight
 from about_jorgec.styles.styles import Size
 
 def footer() -> rx.Component:
@@ -17,7 +17,8 @@ def footer() -> rx.Component:
                     rx.link(
                         " SAFe ",
                         href="https://scaledagileframework.com/",
-                        is_external=True
+                        is_external=True,
+                        font_weight=FontWeight.MEDIUM,
                     ),
                     "® 6 Practitioner.",
                 ),

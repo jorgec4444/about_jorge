@@ -1,8 +1,0 @@
-From July 2022 until December 2022 I worked at Immfly, a company that created an entertainment system
-for the airplanes that allows passengers to play games, watch movies or series or even order
-products during the flight. My role in the company during my internship was as a data analyst,
-contributing to the new Data team providing analysis and data structures of all our solutions for
-airlines, such as pre-order and retail on board and inflight entertainment. The team had a wide-range
-of goals from creating, maintaining and improving data structures to forecasting and discovering new
-and insightful KPI's with the use of Machine Learning. We also helped our partners to perform
-data-oriented decisions, such as feedback classification for NPS or stock prediction.

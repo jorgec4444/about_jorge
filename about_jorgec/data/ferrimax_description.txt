@@ -1,4 +1,0 @@
-From June 2021 until September 2021 I worked as a researcher in a embedded software project from a safety-boxes company.
-My job as part of the I+D team during my internship was to upgrade the safe-deposit boxes embedded software to new
-languages and frameworks in order to improve the performance of the programs and make the code more adaptable to now a
-day technologies.
