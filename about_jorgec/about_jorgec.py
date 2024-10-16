@@ -7,6 +7,7 @@ from about_jorgec.pages.about_page import about_page
 from about_jorgec.pages.cv_page import cv_page
 from about_jorgec.pages.projects_page import projects_page
 from about_jorgec.styles.styles import BASE_STYLE
+import about_jorgec.utils as utils
 
 #class State(rx.State):
 #    """The app state."""
@@ -29,13 +30,9 @@ def base_page(content: rx.Component) -> rx.Component:
     )
 
 @rx.page(
-    route="/",
-    title="Jorgec4444 | Software developer",
-    description=
-    """
-    Hello, my name is Jorge Vinagre. I'm a software engineer and this is a web app for you to know about me 
-    best done with pure python
-    """,
+    title=utils.index_title,
+    description=utils.index_description,
+    meta=utils.index_meta,
     image="/about_jorgec/assets/rose_icon.svg"
 )
 def index() -> rx.Component:

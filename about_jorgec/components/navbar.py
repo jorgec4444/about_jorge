@@ -51,7 +51,8 @@ def navbar() -> rx.Component:
                                 src="/rose_icon.svg"),
                             size="2",
                             radius="full",
-                            color_scheme="indigo"
+                            color_scheme="indigo",
+                            auto_focus="true"
                         )
                     ),
                     rx.menu.content(
