@@ -1,4 +1,4 @@
-preview = "https://moure.dev/preview.jpg"
+preview = "https://jorgec4444-dev.vercel.app/preview.png"
 
 _meta = [
     {"name": "og:type", "content": "website"},
