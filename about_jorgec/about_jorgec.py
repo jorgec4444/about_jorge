@@ -1,5 +1,6 @@
 import reflex as rx
 
+from about_jorgec import constants
 from about_jorgec.components.navbar import navbar
 from about_jorgec.components.footer import footer
 from about_jorgec.views.header.header import header
@@ -58,7 +59,19 @@ def projects() -> rx.Component:
         projects_page()
     )
 
-app = rx.App(style=BASE_STYLE)
+app = rx.App(style=BASE_STYLE,
+             head_components=[
+                 rx.script(src=f"https://www.googletagmanager.com/gtag/js?id={constants.GTAG}"),
+                 rx.script(src=
+                           f"""
+                           window.dataLayer = window.dataLayer || [];
+                           function gtag(){{dataLayer.push(arguments);}}
+                           gtag('js', new Date());
+                           gtag('config', '{constants.GTAG}');
+                           """
+                           )
+             ],
+             )
 app.add_page(index)
 app.add_page(about)
 app.add_page(cv)

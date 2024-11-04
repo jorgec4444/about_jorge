@@ -16,3 +16,6 @@ BACHELOR_THESIS_URL = "https://www.linkedin.com/feed/update/urn:li:activity:7131
 QUANTUM_POSTGRADUATE_UPC_URL = "https://www.talent.upc.edu/ing/estudis/formacio/curs/304400/postgraduate-course-quantum-engineering/"
 MOTONITOR_URL = "https://github.com/jorgec4444/motonitorHackUPC"
 COMMENT_CLASSIFICATION_THESIS_URL = "https://github.com/jorgec4444/instagram-comment-classification-thesis"
+
+# Google analytics (GTAG)
+GTAG = "G-HLD2E05779"
