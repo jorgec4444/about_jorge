@@ -9,7 +9,7 @@ DRIVE_CV_URL = "https://drive.google.com/file/d/1Lf5yWjbfbid3oEm3lPTIOiWhHoXlHzF
 FERRIMAX_URL = "https://ferrimax.com/es"
 IMMFLY_URL = "https://www.immfly.com/"
 MERKLE_URL = "https://www.merkle.com/es"
-CARVER_URL = "https://carver-as.com/es/"
+CARVER_URL = "https://carver-as.com/home/es"
 
 # Education
 BACHELOR_THESIS_URL = "https://www.linkedin.com/feed/update/urn:li:activity:7131772752432099328/"

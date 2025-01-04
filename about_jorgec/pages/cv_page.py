@@ -103,7 +103,17 @@ def cv_page():
                     ),
                     link_section(
                         "Carver Advanced Systems",
-                        "Coming soon...",
+                        rx.text(
+                            """
+                            Since October 2024, I have been working on various projects for different 
+                            clients, including government entities, where I develop solutions using Java
+                            and Spring Boot, integrating multiple libraries and working with other technologies
+                            such as keycloak.
+                            I am responsible for designing and developing RESTful APIs documented with Swagger,
+                            as well as managing databases and writing scripts. I maintain active communication
+                            with clients to define and implement the most suitable solutions.
+                            """
+                        ),
                         href=const.CARVER_URL),
                     width = "60%",
                     justify="center",
@@ -205,9 +215,20 @@ def cv_page():
                         ),
                         href=const.MERKLE_URL
                     ),
-                    link_section("Carver Advanced Systems",
-                                 "Coming soon...",
-                                 href=const.CARVER_URL),
+                    link_section(
+                        "Carver Advanced Systems",
+                        rx.text(
+                            """
+                            Since October 2024, I have been working on various projects for different 
+                            clients, including government entities, where I develop solutions using Java
+                            and Spring Boot, integrating multiple libraries and working with other technologies
+                            such as keycloak.
+                            I am responsible for designing and developing RESTful APIs documented with Swagger,
+                            as well as managing databases and writing scripts. I maintain active communication
+                            with clients to define and implement the most suitable solutions.
+                            """
+                        ),
+                        href=const.CARVER_URL),
                     width="90%",
                     justify="center",
                     font_size=FontSize.DEFAULT.value
